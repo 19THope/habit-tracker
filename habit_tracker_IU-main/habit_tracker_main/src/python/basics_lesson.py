@@ -11,13 +11,13 @@ is_student = True
 
 # Print values to the terminal
 print("Name:", name)           # Outputs: Name: Alice
-print("Temperature:", temperature)  # Outputs: Temperature: 36.6'''
+print("Temperature:", temperature)  # Outputs: Temperature: 36.6
 
 import math
 print(math.sqrt(16))  # Outputs: 4.0
 
 import datetime
-print(datetime.date.today())  # Outputs: today's date
+print(datetime.date.today())  # Outputs: today's date '''
 
 '''
 def check_age():
@@ -32,7 +32,7 @@ def check_age():
 
 check_age() '''
 
-def greet(name):
+'''def greet(name):
     print("Hello,", name)
 
 user_name = input("Enter your name: ")
@@ -42,8 +42,15 @@ if age < 18:
 elif age == 18:
         print("You are exactly 18.")
 else:
-    greet(user_name)
+    greet(user_name)'''
 
+x = 10
+ 
+def print_local():
+    x = 5  # Local variable inside function
+    print("Inside function:", x)
 
+#print_local()
+print("Outside function:", x)
 
 
